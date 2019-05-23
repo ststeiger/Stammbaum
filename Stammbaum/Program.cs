@@ -1,12 +1,16 @@
 ﻿
 using System.Linq;
 using Stammbaum.DataStructures;
-using SixLabors.ImageSharp;
+
 
 namespace Stammbaum
 {
+
+
     class Program
     {
+
+
         public static TreeInfo GetAncestors()
         {
             TreeInfo ti = new TreeInfo();
@@ -235,7 +239,7 @@ namespace Stammbaum
             PdfSharpCore.Fonts.GlobalFontSettings.FontResolver = new FontResolver();
 
             MigraDocCore.DocumentObjectModel.MigraDoc.DocumentObjectModel.Shapes
-                .ImageSource.ImageSourceImpl = new PdfSharpCore.ImageSharp.ImageSharpImageSource<Rgba32>();
+                .ImageSource.ImageSourceImpl = new PdfSharpCore.ImageSharp.ImageSharpImageSource<SixLabors.ImageSharp.PixelFormats.Rgba32>();
 
 
             using (PdfSharpCore.Pdf.PdfDocument document = new PdfSharpCore.Pdf.PdfDocument())
@@ -447,7 +451,7 @@ namespace Stammbaum
         } // End Sub Main 
 
 
-    } // End Class 
+    } // End Class Program 
 
 
-} // End Namespace 
+} // End Namespace Stammbaum 
