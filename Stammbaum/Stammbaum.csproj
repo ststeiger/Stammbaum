@@ -11,12 +11,13 @@
     <EmbeddedResource Include="SQL\Ahnen.sql" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="MySqlConnector" Version="0.16.2" />
-    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
-    <PackageReference Include="Npgsql" Version="3.2.2" />
-    <PackageReference Include="PdfSharpCore" Version="1.1.1" />
+    <PackageReference Include="MySqlConnector" Version="0.54.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Npgsql" Version="4.0.7" />
+    <PackageReference Include="PdfSharpCore" Version="1.1.4" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.0-beta0006" />
     <PackageReference Include="System.Data.Common" Version="4.3.0" />
-    <PackageReference Include="System.Data.SqlClient" Version="4.3.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.6.1" />
   </ItemGroup>
   <Import Project="..\..\CoreDAL\CoreDb\CoreDb.projitems" Label="Shared" />
 </Project>

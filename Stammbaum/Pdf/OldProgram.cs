@@ -1,7 +1,8 @@
-﻿using SixLabors.ImageSharp;
-
+﻿
 namespace Stammbaum
 {
+
+
     class OldProgram
     {
         static void OldSimpleMain(string[] args)
@@ -9,7 +10,7 @@ namespace Stammbaum
             PdfSharpCore.Fonts.GlobalFontSettings.FontResolver = new FontResolver();
 
             MigraDocCore.DocumentObjectModel.MigraDoc.DocumentObjectModel.Shapes
-                .ImageSource.ImageSourceImpl = new PdfSharpCore.ImageSharp.ImageSharpImageSource<Rgba32>();
+                .ImageSource.ImageSourceImpl = new PdfSharpCore.ImageSharp.ImageSharpImageSource<SixLabors.ImageSharp.PixelFormats.Rgba32>();
 
 
             using (PdfSharpCore.Pdf.PdfDocument document = new PdfSharpCore.Pdf.PdfDocument())
