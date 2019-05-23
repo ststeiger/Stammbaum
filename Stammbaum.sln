@@ -12,6 +12,8 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CoreDb", "CoreDb\CoreDb.shp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stammbaum", "Stammbaum\Stammbaum.csproj", "{AE9E84FA-4BF8-40CD-81B9-17CC9F5B8A20}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PdfSharpCore.ImageSharp", "PdfSharpCore.ImageSharp\PdfSharpCore.ImageSharp.csproj", "{0151761F-3A96-4BBA-AD96-1D31E3D159EF}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		CoreDb\CoreDb.projitems*{38c40453-132f-41f0-9922-55d64402b0bd}*SharedItemsImports = 13
@@ -25,6 +27,10 @@ Global
 		{AE9E84FA-4BF8-40CD-81B9-17CC9F5B8A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE9E84FA-4BF8-40CD-81B9-17CC9F5B8A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE9E84FA-4BF8-40CD-81B9-17CC9F5B8A20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0151761F-3A96-4BBA-AD96-1D31E3D159EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0151761F-3A96-4BBA-AD96-1D31E3D159EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0151761F-3A96-4BBA-AD96-1D31E3D159EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0151761F-3A96-4BBA-AD96-1D31E3D159EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
